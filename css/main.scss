@@ -1,3 +1,11 @@
+body {
+
+	margin: 0px;
+	padding: 0px;
+	height: 1000px;
+}
+
+
 #fondo {
 
 	background-color: #088A85;
@@ -18,21 +26,25 @@
 
 .bsq {
 
-	border:1px solid gray;
-	background: white;
+	
 	width: 100%;
 	height: 90px;
-	padding: 3%;
-}
+	background: #E6E6E6;
+	padding: 5%;
 
-
+	
 input {
 
 	width: 95%;
 	padding: 5%;
+	float: right;
+	border: none;
+	border-radius: 5%;
 
-	float: right;	
 }
+
+}
+
 
 
 .hd img {
@@ -54,10 +66,13 @@ input {
 .lb {
 
 	background-color: #D8D8D8;
-	width: 70%;
-	height: 80px;
-	margin-top: 4%;
-	float: left;
+	width: 106%;
+	height: 82px;
+	margin-top: 3.5%;
+	margin-left: -5.8%;
+	border-left: 1px solid silver;
+	border-bottom: 1px solid silver;
+
 
 
 img {
@@ -128,11 +143,11 @@ span {
 }
 
 .panel-2 {
-	width: 100%;
 	background-image: url(../image/chat.png);
-	background-size: contain;
-	height: 500px;
-	margin-top: 5%;
+	background-size: cover;
+	width: 106%;
+	height: 600px;
+	margin-left: -5.5%;
 }
 
 .chat {
@@ -206,21 +221,34 @@ h4 {
 
 .msj {
 
-	border:1px solid gray;
+	border:1px solid silver;
 	background: white;
-	width: 100%;
-	height: 50px;
-	padding: 1%;
+	width: 110%;
+	height: 90px;
+	padding: 5%;
 	margin-top: 5%;
+	margin-left: -9%;
+
+input {
+
+	width: 80%;
+	height: 60px;
+	padding: 5%;
+	margin-top: -15px;
+	border: none;
+	border-radius: 5%;
+
 }
 
-.msj input {
 
-	width: 50%;
-	padding: 1%;
-	margin-right: 160px;
+button {
 
-	
+	border-style: none;
+	background-color: #fff;
+	color: aqua;
+	font-size: 20px;
+}
+
 }
 
 .panel-2 {
@@ -237,8 +265,4 @@ h4 {
 .panel-1 {
 
 	height: 500px;
-}
-.panel-2 .lb {
-
-	width: 100%;
 }
